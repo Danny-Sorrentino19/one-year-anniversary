@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title> Our One Year❤️</title>
+        <style>
+            body {
+                background-color: #dbeafe;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                padding-top: 100px;
+            }
+            button {
+                background-color: #ff4d6d;
+                color: black;
+                border: none;
+                padding: 12px 24px;
+                border-radius: 999px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #e63956;
+            }
+            #surpriseContent {
+                display: none;
+                margin-top: 40px;
+            }
+            .photo-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+                max-width: 700px;
+                margin: 25px auto;
+            }
+            .photo-grid img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+            .love-card span {
+                display: none;
+            }
+            .fade-in {
+                animation: fadeIn 0.7s ease-in-out;
+            }
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(8px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            @media (max-width: 600px) {
+                body {
+                    padding-top: 15px;
+                }
+                .photo-grid {
+                    grid-template-columns: 1fr;
+                    gap: 10px;
+                }
+                .photo-grid img {
+                    width: 100%;
+                    max-height: 500px;
+                    object-fit: contain;
+                    border-radius: 15px;
+                    display: block;
+                }
+                .love-card {
+                    width: 100%;
+                    max-width: 100%;
+                    margin: 6px 0;
+                    white-space: normal;
+                }
+                h1 {
+                    font-size: 2rem;
+                }
+                h2 {
+                    font-size: 1.6rem;
+                }
+                p {
+                    line-height: 1.5;
+                }
+            }
+        </style>
+
+
+    </head>
+<body>
+    <h1> Happy One Year❤️</h1>
+    <p> I made something special for you</p>
+    <button onclick="showSurprise()">Open your surprise </button> 
+    <div id="surpriseContent">
+        <h2>Our Story❤️</h2>
+        <p>One year ago, we started something that became one of the best parts of my life.
+            It is insane how we met each other on a dating app and one converstation turned into us 
+            Facetiming all night until we literally had to get ready for work.
+            From the beginning, talking to you felt so easy, and somehow we just never stopped. Now here we are a year later!
+            From all the little moments to the big memories, I am so so very grateful
+            for everything we we've shared together. 
+        </p>
+       
+        <h2>Favorite Memories 📸</h2>
+        <p>❤️The first time we met-honestly one of the best days of my life!</p>
+        <p>📱Our first FaceTime call and somehow talking all night.</p>
+        <p>🎃The first time we went to the haunted trail.</p>
+        <p>🍫Our first ever trip together to Hershey!</p>
+        <p>🌊Our trip to Myrtle beach. Also Meeting you at Myrtle Beach, best decision ever.</p>
+        <p>🌅Our trips out east</p>
+        <p>😂All the random times we're just together laughing. </p>
+        <p>🍝The first time you took me to Vincent's</p>
+        <p>💏Just being with you.</p>
+        <div class="photo-grid">
+            <img src="First messages.jpeg" alt="Our first messages">
+            <img src="Hershey.jpg" alt="Our Hershey trip">
+            <img src="Christmas.jpg" alt="Christmas together">
+            <img src="Chops Birthday .jpg" alt="Birthday dinner">
+            <img src="Valenines.JPG" alt="Valentine's Day">
+            <img src="Valentines dinner.jpg" alt="Valentines day dinner">
+            <img src="Love.jpg" alt="Us together">
+            <img src="Myrtle Beach.jpg" alt="Myrtle Beach">
+            <img src="Us MB.JPG" alt="Us at Myrtle Beach">
+            <img src="Outeast.jpg" alt="our trip out east">
+            <img src="Gym.png" alt="Us at the gym">
+        
+        </div>
+
+        
+        <h2>Things I love about you ❤️</h2>
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>The way you look at me.</span>
+        </button>
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>The way you treat me.</span>
+        </button>
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>How beautiful you look every single day.</span>
+        </button>
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>The way you make me laugh.</span>
+        </button>
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>How comfortable I feel around you.</span>
+        </button>
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>How caring and thoughtful you are.</span>
+        </button>
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>How supportive you are of me.</span>
+        </button>
+    
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>The little things you do without even realizing it.</span>
+        </button>
+        <button class="love-card" onclick="revealLove(this)">
+            ❤️Tap me
+            <span>How even on normal days feel better when I'm with you.</span>
+        </button>
+
+
+        <h2>A message for you 💌</h2>
+        <p>I can't believe it's already been a year. This past year has given me so many memories that I will always be grateful for, and I am so happy I get to experience all of this with you.</p>
+        <p>I love everything we built together so far, and I am super excited for all the trips, random nights, big moments, and little moments we still have ahead of us. </p>
+        <p> I love you so so much. Happy one year! Forever and always, us.❤️</p>
+
+
+
+        <button onclick="showFinalMessage()">One more thing...❤️</button>
+        <div id="finalSurprise" style="display: none;">
+            <h2>Year 2 starts now❤️</h2>
+            <p>I'd choose you all over again.</p>
+            <p> Here's to everything still ahead of us.❤️</p>
+        </div>
+
+    <script>
+        function showSurprise() {
+            const surprise = document.getElementById("surpriseContent");
+            surprise.style.display = "block";
+            surprise.classList.add("fade-in");
+        }
+
+        function showFinalMessage() {
+            const finalSurprise = document.getElementById("finalSurprise");
+            finalSurprise.style.display = "block";
+            finalSurprise.classList.add("fade-in");
+        }
+        function revealLove(button) {
+            const message = button.querySelector("span");
+            button.childNodes[0].textContent = "❤️"; // Remove the "❤️Tap me" text
+            message.style.display = "inline";
+        }
+    </script>
+</body>
+</html> 
